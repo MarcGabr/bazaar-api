@@ -1,12 +1,4 @@
-# Dependencies
 node_modules
-
-# Testing
-coverage
-
-# Environment
-.env.local
-.env.*.local
-
-# Build
-dist
+# Keep environment variables out of version control
+.env
+dev.db*
